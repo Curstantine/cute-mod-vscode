@@ -48,6 +48,9 @@
 		"peekViewTitleDescription.foreground": "#000000aa",
 		"peekViewTitleLabel.foreground": "#210049",
 
+		"badge.background": "#ff4574",
+		"badge.foreground": "#ffffff",
+
 		"activityBarBadge.background": "#ff4574",
 		"button.background": "#ff4574",
 		"editorLightBulbAutoFix.foreground": "#ff4574",
@@ -162,8 +165,6 @@
 		// "list.warningForeground": "#00a015",
 		// "statusBarItem.remoteBackground": "#16825d",
 		// "statusBarItem.remoteForeground": "#ffffff",
-		//"badge.background": "#c4c4c4",
-		//"badge.foreground": "#333333",
 		//"button.foreground": "#ffffff",
 		//"button.hoverBackground": "#0062a3",
 		//"checkbox.background": "#ffffff",
