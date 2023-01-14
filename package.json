@@ -1,30 +1,41 @@
 {
-    "name": "cute-theme",
-    "displayName": "Cute Pink Light Theme",
-    "description": "A cute pink light theme for VSCode",
-    "icon": "icon.png",
-    "version": "0.0.4",
-    "publisher": "webfreak",
-    "keywords": ["cute", "pink", "light theme", "theme"],
-    "license": "CC0-1.0",
-    "engines": {
-        "vscode": "^1.30.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "galleryBanner": {
-        "theme": "light",
-        "color": "#fcdee9"
-    },
-    "repository": "https://gitlab.com/WebFreak001/cute-vscode.git",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Cute",
-                "uiTheme": "vs",
-                "path": "./themes/cute.json"
-            }
-        ]
-    }
+	"name": "cute-mod-vscode",
+	"displayName": "Cute (mod)",
+	"description": "Pink accented light/dark themes",
+	"version": "0.0.1",
+	"publisher": "Curstantine",
+	"keywords": [
+		"cute",
+		"pink"
+	],
+	"license": "GPL3",
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"galleryBanner": {
+		"theme": "light",
+		"color": "#fcdee9"
+	},
+	"repository": "https://github.com/Curstantine/cute-mod-vscode",
+	"scripts": {
+		"generate": "node ./scripts/generator.mjs"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Cute",
+				"uiTheme": "vs",
+				"path": "./themes/light-color-theme.json"
+			},
+			{
+				"label": "Cute",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-color-theme.json"
+			}
+		]
+	},
+	"packageManager": "pnpm@7.22.0"
 }
